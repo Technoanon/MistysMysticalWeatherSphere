@@ -1,11 +1,30 @@
-#mistyImage {
-    width: 200px;
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
+#mistyWeatherBack {
+    position: relative;
+    background-image: url('Misty_tortie.jpg');
+    background-size: contain; /* Keeps the entire image, adds space if needed */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center; /* Centers the image */
+    width: 810px;
+    height: 800px;
+    margin: 0 auto;
+}
+#location {
+    margin: 20px;
+    padding: 5px;
+    font-size: 16px;
+}
+#getWeather {
+    margin: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+#weatherResult {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 #almanacInsight {
-    margin: 20px auto;
+    margin: 20px;
     text-align: center;
     font-style: italic;
 }
