@@ -1,0 +1,11 @@
+#mistyImage {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+#almanacInsight {
+    margin: 20px auto;
+    text-align: center;
+    font-style: italic;
+}
